@@ -26,6 +26,7 @@ if (isset($_POST['btnsubmit'])) {
 	<title>Xpert Driving Instructor</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="p:domain_verify" content="1d14bafd514d9e8500b1cbbd9e8f2e1b"/>
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 	<!-- Fonts -->

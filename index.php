@@ -1,22 +1,4 @@
-<?php
 
-if (isset($_POST['btnsubmit'])) {
-    // $user_email = "2013n0128@gmail.com";
-    $name         = $_POST['name'];
-    $email          = $_POST['email'];
-    $phone        = $_POST['phone'];
-    $time      = $_POST['time'];
-    $date      = $_POST['date'];
-    $course      = $_POST['course'];
-    $car  = $_POST['car'];
-    $messemail     = '';
-    $messemail    .= "Name = " . $name ." %0DEmail: " . $email . " %0DPhone Number = ". $phone ." %0Dtime = ". $time ." %0Ddate = ".$date." %0DCourse = ".$course." %0DCar = ".$car;
-    
-    $wp_num       = "923057575146";
-    header("location:https://api.whatsapp.com/send?phone=$wp_num&text=%20$messemail");
-} 
-
-?>
 <!doctype html>
 <html class="no-js" lang="en">
 
